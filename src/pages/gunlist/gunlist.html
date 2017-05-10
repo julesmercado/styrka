@@ -1,0 +1,33 @@
+<ion-header>
+  <ion-navbar> 
+        <ion-title text-center> Gun Safe </ion-title>
+          <ion-buttons end>
+              <button ion-button> Add </button>
+              <button ion-button> Edit </button>
+          </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content padding>
+  <ion-list>
+    <ion-list-header>
+      Action
+    </ion-list-header>
+    <ion-item (click)="showPrompt()">Terminator II</ion-item>
+    <ion-item>The Empire Strikes Back</ion-item>
+    <ion-item>Blade Runner</ion-item>
+
+    <ion-list-header>
+      Action
+    </ion-list-header>
+    <ion-item (click)="goToComponents()">Terminator II</ion-item>
+    <ion-item>The Empire Strikes Back</ion-item>
+    <ion-item>Blade Runner</ion-item>
+    <ion-item>Terminator II</ion-item>
+    <ion-item>The Empire Strikes Back</ion-item>
+    <ion-item>Blade Runner</ion-item>
+
+  </ion-list>
+
+</ion-content>

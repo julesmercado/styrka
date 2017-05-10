@@ -1,0 +1,65 @@
+<ion-header>
+    <ion-navbar>
+        <ion-title text-center>
+          Contact
+        </ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content>
+    <ion-list>
+
+      <ion-item>
+          <ion-label stacked>First Name</ion-label>
+          <ion-input text-right type="text"></ion-input>
+      </ion-item>
+
+      <ion-item>
+          <ion-label stacked>Last Name</ion-label>
+          <ion-input text-right type="password"></ion-input>
+      </ion-item>
+
+      <ion-item>
+          <ion-label stacked>Email</ion-label>
+          <ion-input text-right type="password"></ion-input>
+      </ion-item>
+
+      <ion-item>
+          <ion-label>Update password</ion-label>
+          <ion-toggle disabled default checked="false"></ion-toggle>
+      </ion-item>
+
+      <ion-list-header>
+          Unit Standard 
+      </ion-list-header>
+
+      <ion-item>
+          <ion-label>Speed Unit</ion-label>
+          <ion-select [(ngModel)]="gaming">
+              <ion-option value="nes">NES</ion-option>
+              <ion-option value="n64">Nintendo64</ion-option>
+              <ion-option value="ps">PlayStation</ion-option>
+              <ion-option value="genesis">Sega Genesis</ion-option>
+              <ion-option value="saturn">Sega Saturn</ion-option>
+              <ion-option value="snes">SNES</ion-option>
+          </ion-select>
+      </ion-item>
+
+      <ion-list-header>
+          Interests 
+      </ion-list-header>
+
+      <ion-item>
+          <ion-label>Big Game Hunting</ion-label>
+          <ion-toggle disabled default checked="true"></ion-toggle>
+      </ion-item>
+      <ion-item>
+          <ion-label>Varmint Hunting</ion-label>
+          <ion-toggle disabled default checked="true"></ion-toggle>
+      </ion-item>
+      <ion-item>
+          <ion-label>Predator Hunting</ion-label>
+          <ion-toggle disabled default checked="true"></ion-toggle>
+      </ion-item>
+    </ion-list>
+</ion-content>

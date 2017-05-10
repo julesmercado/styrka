@@ -1,0 +1,79 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title text-center>
+      Target
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+	<ion-list>
+		<ion-list-header>
+	      	Target
+	    </ion-list-header>
+	  	<ion-item>
+	    	<ion-label fixed>Range</ion-label>
+	    	<ion-input type="text" value=""></ion-input>
+	  	</ion-item>
+
+	  	<ion-list-header>
+	      	Wind
+	    </ion-list-header>
+	  	<ion-item>
+	    	<ion-label fixed>Wind Angle</ion-label>
+	    	<ion-input type="password"></ion-input>
+	  	</ion-item>
+	  	<ion-item>
+	    	<ion-label fixed>Wind Speed</ion-label>
+	    	<ion-input type="password"></ion-input>
+	  	</ion-item>
+	  	<ion-item>
+		    <ion-label>Speed Unit</ion-label>
+		    <ion-select [(ngModel)]="gaming">
+		      	<ion-option value="nes">NES</ion-option>
+		      	<ion-option value="n64">Nintendo64</ion-option>
+		      	<ion-option value="ps">PlayStation</ion-option>
+		      	<ion-option value="genesis">Sega Genesis</ion-option>
+		      	<ion-option value="saturn">Sega Saturn</ion-option>
+		      	<ion-option value="snes">SNES</ion-option>
+		    </ion-select>
+		</ion-item>
+
+	  	<ion-list-header>
+	      	Table Output
+	    </ion-list-header>
+	  	<ion-item>
+	    	<ion-label fixed>Min Range</ion-label>
+	    	<ion-input type="password"></ion-input>
+	  	</ion-item>
+	  	<ion-item>
+	    	<ion-label fixed>Max Range</ion-label>
+	    	<ion-input type="password"></ion-input>
+	  	</ion-item>
+	  	<ion-item>
+	    	<ion-label fixed>Range Increment</ion-label>
+	    	<ion-input type="password"></ion-input>
+	  	</ion-item>
+	  	<ion-item>
+		    <ion-label>Drop and Windage units</ion-label>
+		    <ion-select [(ngModel)]="windage">
+		      	<ion-option value="nes">NES</ion-option>
+		      	<ion-option value="n64">Nintendo64</ion-option>
+		      	<ion-option value="ps">PlayStation</ion-option>
+		      	<ion-option value="genesis">Sega Genesis</ion-option>
+		      	<ion-option value="saturn">Sega Saturn</ion-option>
+		      	<ion-option value="snes">SNES</ion-option>
+		    </ion-select>
+		</ion-item>
+
+	</ion-list>
+
+	<ion-footer>
+	  	<ion-toolbar>
+	    	<ion-buttons>
+              	<button ion-button large class="footer-button"> Next </button>
+              	<button ion-button large class="footer-button"> Quick Results </button>
+          	</ion-buttons>
+	  	</ion-toolbar>
+	</ion-footer>
+</ion-content>
