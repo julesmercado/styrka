@@ -4,6 +4,7 @@ import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
 import { MyApp } from './app.component';
 
 import { Login } from '../pages/login/login';
+import { Signup } from '../pages/signup/signup';
 import { Calculator } from '../pages/calculator/calculator';
 import { Settings } from '../pages/settings/settings';
 import { Gunlist } from '../pages/gunlist/gunlist';
@@ -22,6 +23,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     Calculator,
     Settings,
     Gunlist,
+    Signup,
     TabsPage,
     GunComponents
   ],
@@ -36,6 +38,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     Calculator,
     Settings,
     Gunlist,
+    Signup,
     TabsPage,
     GunComponents
   ],
