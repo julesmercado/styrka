@@ -1,0 +1,56 @@
+page-login{
+
+	.logo{
+		width: 60%;
+    	margin-top: 25%;
+    	text-align: center;
+    	margin-left: 20%;
+	}
+	.login-content{
+		background-color: black; 
+	}
+	/*.toolbar-content	{
+		border-color: #b2b2b2;
+	    background-color: #101012;
+	    background-image: linear-gradient(0deg, #b2b2b2, #b2b2b2 50%, transparent 50%);
+	    color: #fff;
+	}*/
+	.input-class{
+		background-color: black;
+		color: white;
+		margin-left: 20px;
+	}
+	[text-right]{
+		text-align: right !important;
+	    background-color: white;
+	    border-radius: 3px;
+	    margin-left: 9px;
+	    width: 94%;
+	}
+	input{
+		-webkit-border-radius: 50px;
+		-moz-border-radius: 50px;
+		border-radius: 50px;
+		background-color: white;
+	}
+	.footer-button{
+	    margin-bottom: 0px;
+	    margin-top: 0px;
+	}
+	.login-button{
+		background: #c41f26;
+	    background-image: linear-gradient(to bottom, #c41f26, #9a1a1f);
+	    color: #fff;
+	    height: 45px;
+	    border: none;
+	    border-radius: 0 !important;
+	}
+	.create-account{
+	    background: #263238;
+	    background-image: linear-gradient(to bottom, #263238, #101010);
+	    color: #fff;
+	    height: 45px;
+	    border: none;
+	    border-radius: 0 !important;
+	}
+}

@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
 import { MyApp } from './app.component';
 
+import { Login } from '../pages/login/login';
 import { Calculator } from '../pages/calculator/calculator';
 import { Settings } from '../pages/settings/settings';
 import { Gunlist } from '../pages/gunlist/gunlist';
@@ -17,6 +18,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 @NgModule({
   declarations: [
     MyApp,
+    Login,
     Calculator,
     Settings,
     Gunlist,
@@ -30,6 +32,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
+    Login,
     Calculator,
     Settings,
     Gunlist,
