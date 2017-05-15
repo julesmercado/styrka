@@ -6,17 +6,18 @@
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
-	<ion-list>
-		<ion-list-header>
+<ion-content padding class="calculator-wrapper">
+	<ion-list class="disable-user-behavior">
+		<ion-list-header class="calculator-header">
 	      	Target
 	    </ion-list-header>
 	  	<ion-item>
 	    	<ion-label fixed>Range</ion-label>
-	    	<ion-input type="text" value=""></ion-input>
+	    	<ion-input class="item item-range" id="range" type="text" value=""></ion-input>
+	    	<!-- <ion-label>yds</ion-label> -->
 	  	</ion-item>
 
-	  	<ion-list-header>
+	  	<ion-list-header class="calculator-header">
 	      	Wind
 	    </ion-list-header>
 	  	<ion-item>
@@ -39,7 +40,7 @@
 		    </ion-select>
 		</ion-item>
 
-	  	<ion-list-header>
+	  	<ion-list-header class="calculator-header">
 	      	Table Output
 	    </ion-list-header>
 	  	<ion-item>

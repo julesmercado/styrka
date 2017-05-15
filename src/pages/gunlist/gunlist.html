@@ -9,16 +9,25 @@
 </ion-header>
 
 
-<ion-content padding>
-  <ion-list>
-    <ion-list-header>
-      Action
+<ion-content padding class="gunlist-wrapper">
+  <ion-list class="disable-user-behavior">
+    <ion-list-header class="gunlist-header">
+      Guns
     </ion-list-header>
-    <ion-item (click)="showPrompt()">Terminator II</ion-item>
-    <ion-item>The Empire Strikes Back</ion-item>
-    <ion-item>Blade Runner</ion-item>
+    
+      <ion-item class="item" *ngFor="let gun of guns" (click)="showPrompt()">
+        {{gun}}
+      </ion-item>
+    
+    <ion-list-header class="gunlist-header">
+      Favorites
+    </ion-list-header>
+      
+      <ion-item class="item" *ngFor="let gun of guns" (click)="goToComponents()">
+        {{favorites}}
+      </ion-item>
 
-    <ion-list-header>
+    <!-- <ion-list-header>
       Action
     </ion-list-header>
     <ion-item (click)="goToComponents()">Terminator II</ion-item>
@@ -26,7 +35,7 @@
     <ion-item>Blade Runner</ion-item>
     <ion-item>Terminator II</ion-item>
     <ion-item>The Empire Strikes Back</ion-item>
-    <ion-item>Blade Runner</ion-item>
+    <ion-item>Blade Runner</ion-item> -->
 
   </ion-list>
 

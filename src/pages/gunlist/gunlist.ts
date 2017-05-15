@@ -7,9 +7,12 @@ import { GunComponents } from './guncomponents/guncomponents';
   templateUrl: 'gunlist.html'
 })
 export class Gunlist {
-
+	guns: any; favorites: any;
   constructor(public navCtrl: NavController , public alertCtrl: AlertController) {
-
+  	this.guns = ['Remington 700 R5', 'hhh', 'New Gun', '270 Winchester', 'aaa', 'ssss', 'Remington 700 match'];
+  	this.favorites = [	'New Gun - Fusion', 'Remington 700 R5 - Fusion', '270 Winchester - 308 Win', 
+  						'Remington 700 R5 - Federal Fusion', 'New Gun - Fusion', 'hhh - ssss', 
+  						'Remington 700 R5 - Federal Fusion', 'Remington 700 R5 - Federal Fusion'];
   }
   	showPrompt() {
 	    let prompt = this.alertCtrl.create({

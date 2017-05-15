@@ -9,16 +9,12 @@
 </ion-header>
 
 
-<ion-content padding>
+<ion-content padding class="ammos-wrapper">
   <ion-list>
-    <ion-list-header>
-      Action
-    </ion-list-header>
-    <ion-item (click)="alert()">Fusion</ion-item>
-    <ion-item>ssss</ion-item>
-    <ion-item>308 Win</ion-item>
-    <ion-item>Federal Fusiion</ion-item>
-    <ion-item>Rrrrr</ion-item>
+    <ion-item class="item" *ngFor="let ammo of Ammos" (click)="alert()">
+      {{ammo}}
+    </ion-item>
+        
   </ion-list>
 
 </ion-content>

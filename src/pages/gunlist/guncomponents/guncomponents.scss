@@ -1,3 +1,25 @@
 page-guncomponents{
-	
+	.item{
+		background: #4a2a2b;
+	    border: none;
+	    border-bottom: 2px solid #2a0506;
+	    color: #c6bebe;
+	    font-family: Lato;
+	    text-align: left;
+	}
+	.item-inner{
+		border-bottom: none;
+	}.list-ios .item-block .item-inner {
+		border-bottom: none;
+	}.list-ios > .item-block:last-child, .list-ios > .item-wrapper:last-child .item-block{
+		border-bottom: none;
+	}
+	.ammos-wrapper{
+		text-align: center;
+	    background-color: #2a0506;
+	    font-family: Lato;
+	}
+	.list-ios > .item-block:first-child {
+	    border-top: none;
+	}
 }

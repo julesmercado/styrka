@@ -1,5 +1,38 @@
 page-calculator {
+	.item{
+		background: #4a2a2b;
+	    border: none;
+	    border-bottom: 2px solid #2a0506;
+	    color: #c6bebe;
+	    font-family: Lato;
+	    text-align: left;
+	}
+	.item-range{
+		width: 200px;
+	}
+	.item-inner{
+		border-bottom: none;
+	}.list-ios .item-block .item-inner {
+		border-bottom: none;
+	}.list-ios > .item-block:last-child, .list-ios > .item-wrapper:last-child .item-block{
+		border-bottom: none;
+	}.input.text-input.text-input-ios.ng-pristine.ng-valid.ng-touched{
+		text-align: right;
+	}
+	.ion-item.item.item-block.item-ios.item-label-fixed.item-input{
+		width: 90%;
+	}
 	.bar-button-md:first-child {
 	    width: 50%;
+	}.calculator-wrapper{
+		text-align: left;
+	    background-color: #2a0506;
+	    font-family: Lato;
+	}.calculator-header{
+		background: #2a0506;
+		font-size: 9px;
+		text-align: left;
+	    color: #ccc;
 	}
+
 }

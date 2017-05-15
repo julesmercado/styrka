@@ -6,9 +6,9 @@ import { NavController, AlertController  } from 'ionic-angular';
   templateUrl: 'guncomponents.html'
 })
 export class GunComponents {
-
+	Ammos: any;
   constructor(public navCtrl: NavController , public alertCtrl: AlertController) {
-
+  	this.Ammos = ['Remington 700 R5', 'hhh', 'New Gun', '270 Winchester', 'aaa', 'ssss', 'Remington 700 match'];
   }
   	alert() {
 	    let prompt = this.alertCtrl.create({
